@@ -1,0 +1,21 @@
+rank,metabolite,score,disease,validated,pmid
+1,D-Glucose,0.3479,Multiple Sclerosis,Pending,—
+2,L-Valine,0.2821,Multiple Sclerosis,Pending,—
+3,Formic acid,0.1738,Multiple Sclerosis,Pending,—
+4,Citric acid,0.1262,Multiple Sclerosis,Pending,—
+5,Hippuric acid,0.1248,Multiple Sclerosis,Pending,—
+6,L-Lactic acid,0.1229,Multiple Sclerosis,Pending,—
+7,gamma-Aminobutyric acid,0.1228,Multiple Sclerosis,Pending,—
+8,Taurine,0.0878,Multiple Sclerosis,Pending,—
+9,Choline,0.0847,Multiple Sclerosis,Pending,—
+10,Propionic acid,0.0785,Multiple Sclerosis,Pending,—
+11,L-Alanine,0.0772,Multiple Sclerosis,Pending,—
+12,Hypoxanthine,0.0762,Multiple Sclerosis,Pending,—
+13,L-Phenylalanine,0.0699,Multiple Sclerosis,Pending,—
+14,L-Tryptophan,0.0688,Multiple Sclerosis,Pending,—
+15,alpha-D-Glucose,0.0674,Multiple Sclerosis,Pending,—
+16,L-Methionine,0.0657,Multiple Sclerosis,Pending,—
+17,Butyric acid,0.0655,Multiple Sclerosis,Pending,—
+18,L-Proline,0.0632,Multiple Sclerosis,Pending,—
+19,L-Leucine,0.0613,Multiple Sclerosis,Pending,—
+20,L-Threonine,0.0579,Multiple Sclerosis,Pending,—

@@ -1,0 +1,17 @@
+MDA-AENMF-AD Adjacency Matrix Statistics
+==================================================
+Source file   : hmdb_autoimmune_associations.csv
+N metabolites : 379
+N diseases    : 8
+Associations  : 407
+Density       : 0.1342
+
+Per-disease metabolite counts:
+  Rheumatoid Arthritis: 32
+  Systemic Lupus Erythematosus: 0
+  Multiple Sclerosis: 20
+  Inflammatory Bowel Disease: 337
+  Type 1 Diabetes: 18
+  Psoriasis: 0
+  Ankylosing Spondylitis: 0
+  Sjögren's Syndrome: 0

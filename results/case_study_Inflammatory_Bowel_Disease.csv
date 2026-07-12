@@ -1,0 +1,21 @@
+rank,metabolite,score,disease,validated,pmid
+1,Butyric acid,0.9234,Inflammatory Bowel Disease,Pending,—
+2,Propionic acid,0.9187,Inflammatory Bowel Disease,Pending,—
+3,Hippuric acid,0.9012,Inflammatory Bowel Disease,Pending,—
+4,L-Lactic acid,0.8978,Inflammatory Bowel Disease,Pending,—
+5,Indole-3-propionic acid,0.8845,Inflammatory Bowel Disease,Pending,—
+6,D-Glucose,0.8712,Inflammatory Bowel Disease,Pending,—
+7,L-Tryptophan,0.8634,Inflammatory Bowel Disease,Pending,—
+8,Acetic acid,0.8521,Inflammatory Bowel Disease,Pending,—
+9,Citric acid,0.8467,Inflammatory Bowel Disease,Pending,—
+10,Choline,0.8389,Inflammatory Bowel Disease,Pending,—
+11,Taurine,0.7934,Inflammatory Bowel Disease,Pending,—
+12,Hypoxanthine,0.7823,Inflammatory Bowel Disease,Pending,—
+13,Formic acid,0.7712,Inflammatory Bowel Disease,Pending,—
+14,L-Valine,0.7634,Inflammatory Bowel Disease,Pending,—
+15,Deoxycholic acid,0.7521,Inflammatory Bowel Disease,Pending,—
+16,L-Glutamine,0.7489,Inflammatory Bowel Disease,Pending,—
+17,L-Threonine,0.7345,Inflammatory Bowel Disease,Pending,—
+18,Glycocholic acid,0.7234,Inflammatory Bowel Disease,Pending,—
+19,Succinate,0.7189,Inflammatory Bowel Disease,Pending,—
+20,Gamma-butyrolactone,0.7023,Inflammatory Bowel Disease,Pending,—

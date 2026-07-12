@@ -1,0 +1,11 @@
+met_idx,dis_idx,label,hmdb_id,metabolite_name,disease
+0,0,1,HMDB0000162,L-Proline,Rheumatoid Arthritis
+1,0,1,HMDB0000641,L-Glutamine,Rheumatoid Arthritis
+2,1,1,HMDB0000122,D-Glucose,Multiple Sclerosis
+3,1,1,HMDB0000167,L-Valine,Multiple Sclerosis
+4,2,1,HMDB0000158,L-Tryptophan,Inflammatory Bowel Disease
+5,2,1,HMDB0001852,Formic acid,Inflammatory Bowel Disease
+6,3,1,HMDB0000243,Pyruvic acid,Type 1 Diabetes
+7,3,1,HMDB0000904,Citric acid,Type 1 Diabetes
+8,0,0,HMDB0000064,Glycolic acid,Rheumatoid Arthritis
+9,1,0,HMDB0000687,L-Leucine,Multiple Sclerosis

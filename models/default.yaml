@@ -1,0 +1,67 @@
+model:
+  # Disease Autoencoder
+  dae_hidden_dim: 128
+  dae_latent_dim: 64
+  dae_dropout: 0.3
+  dae_batch_norm: true
+
+  # Graph Autoencoder
+  gae_hidden_dim: 256
+  gae_latent_dim: 64
+  gae_dropout: 0.3
+
+  # NMF
+  nmf_rank: 4
+  nmf_max_iter: 500
+  nmf_tol: 1.0e-6
+
+  # MLP Predictor
+  mlp_hidden1: 64
+  mlp_hidden2: 32
+  mlp_dropout: 0.3
+
+  # SNF
+  snf_k: 20
+  snf_t: 20
+
+data:
+  hmdb_path: data/raw/hmdb_associations.csv
+  kegg_path: data/raw/kegg_immune_pathways.csv
+  aida_path: data/raw/aida_autoantibodies.csv
+  mesh_path: data/raw/mesh_similarity.csv
+  dsie_path: data/raw/symptom_entropy.csv
+  smiles_path: data/raw/metabolite_smiles.csv
+  ecfp_radius: 2
+  ecfp_nbits: 1024
+  neg_sampling_ratio: 1.0
+  random_seed: 42
+
+training:
+  lr: 0.001
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 1.0e-5
+  batch_size: 64
+  max_epochs: 200
+  patience: 20
+  val_split: 0.1
+  pretrain_dae_epochs: 100
+  pretrain_gae_epochs: 150
+  device: cuda
+
+evaluation:
+  n_folds: 5
+  threshold: 0.5
+  top_k: [10, 20]
+  n_permutations: 3
+  lodo_diseases:
+    - Multiple Sclerosis
+    - Rheumatoid Arthritis
+    - Inflammatory Bowel Disease
+    - Type 1 Diabetes
+
+output:
+  results_dir: results/
+  checkpoint_dir: results/checkpoints/
+  figures_dir: manuscript_figures/
+  log_level: INFO

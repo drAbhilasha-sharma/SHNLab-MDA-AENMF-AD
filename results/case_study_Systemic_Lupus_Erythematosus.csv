@@ -1,0 +1,21 @@
+rank,metabolite,score,disease,validated,pmid
+1,Formic acid,0.0124,Systemic Lupus Erythematosus,Pending,—
+2,D-Glucose,0.0023,Systemic Lupus Erythematosus,Pending,—
+3,L-Valine,0.0019,Systemic Lupus Erythematosus,Pending,—
+4,Pyruvic acid,0.0001,Systemic Lupus Erythematosus,Pending,—
+5,S-3-oxodecanoyl cysteamine,0.0001,Systemic Lupus Erythematosus,Pending,—
+6,beta-Cryptoxanthin,0.0001,Systemic Lupus Erythematosus,Pending,—
+7,Dimethylamine,0.0001,Systemic Lupus Erythematosus,Pending,—
+8,2-(2-Phenylacetoxy)propionylglycine,0.0001,Systemic Lupus Erythematosus,Pending,—
+9,Lutein,0.0001,Systemic Lupus Erythematosus,Pending,—
+10,Zeaxanthin,0.0001,Systemic Lupus Erythematosus,Pending,—
+11,alpha-Carotene,0.0001,Systemic Lupus Erythematosus,Pending,—
+12,Lycopene,0.0001,Systemic Lupus Erythematosus,Pending,—
+13,3-Hydroxyisovaleric acid,0.0001,Systemic Lupus Erythematosus,Pending,—
+14,beta-Carotene,0.0001,Systemic Lupus Erythematosus,Pending,—
+15,Dehydroepiandrosterone,0.0,Systemic Lupus Erythematosus,Pending,—
+16,Cortisol,0.0,Systemic Lupus Erythematosus,Pending,—
+17,5-HETE,0.0,Systemic Lupus Erythematosus,Pending,—
+18,Uridine diphosphate glucose,0.0,Systemic Lupus Erythematosus,Pending,—
+19,Cortisone,0.0,Systemic Lupus Erythematosus,Pending,—
+20,6-Keto-prostaglandin F1a,0.0,Systemic Lupus Erythematosus,Pending,—

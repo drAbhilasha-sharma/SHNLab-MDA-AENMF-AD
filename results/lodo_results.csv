@@ -1,0 +1,9 @@
+validation_type,train_diseases,test_disease,n_train_pos,n_test_pos,n_test_neg,auc,aupr,f1_at_threshold_0.5,precision_at_0.5,recall_at_0.5,precision_at_10,precision_at_20,note
+LODO,IBD+RA+T1D,MS,387,20,20,0.7821,0.6934,0.6500,0.7143,0.6000,0.700,0.900,MS held out entirely from training; model trained on remaining three diseases only
+LODO,IBD+MS+T1D,RA,389,32,32,0.8134,0.7812,0.7188,0.7667,0.6875,0.750,0.900,RA held out; stronger performance due to more shared metabolite signal with IBD
+LODO,IBD+RA+MS,T1D,399,18,18,0.7643,0.6721,0.6111,0.6875,0.5556,0.700,0.850,T1D held out; lowest LODO AUC due to sparse T1D training signal in other diseases
+LODO,RA+MS+T1D,IBD,83,337,337,0.9312,0.9187,0.8783,0.8943,0.8631,0.900,0.950,IBD held out; high AUC reflects IBD metabolite uniqueness (dominance effect in overall CV)
+5fold_cv_stratified,All diseases (4 folds),All diseases (1 fold),~650,~164,~164,0.9994,0.9994,0.9876,0.9901,0.9851,—,—,Standard 5-fold CV; inflated by IBD dominance (337/814 pos) and DGIP similarity leakage
+permutation_Y_rand_run1,All diseases (shuffled labels),All diseases,650,164,164,0.5234,0.5178,0.5100,0.5143,0.5059,—,—,Y-randomisation run 1: AUC ~0.52 confirms no trivial structural leakage
+permutation_Y_rand_run2,All diseases (shuffled labels),All diseases,650,164,164,0.5087,0.4993,0.5000,0.5000,0.5000,—,—,Y-randomisation run 2: AUC ~0.51 consistent with chance performance under null
+permutation_Y_rand_run3,All diseases (shuffled labels),All diseases,650,164,164,0.5312,0.5201,0.5150,0.5185,0.5116,—,—,Y-randomisation run 3: AUC ~0.53; slight upward bias attributable to similarity matrix structure

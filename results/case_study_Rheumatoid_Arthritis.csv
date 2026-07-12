@@ -1,0 +1,21 @@
+rank,metabolite,score,disease,validated,pmid
+1,Hippuric acid,0.3349,Rheumatoid Arthritis,Pending,—
+2,L-Lactic acid,0.3184,Rheumatoid Arthritis,Pending,—
+3,gamma-Aminobutyric acid,0.317,Rheumatoid Arthritis,Pending,—
+4,Citric acid,0.3005,Rheumatoid Arthritis,Pending,—
+5,Acetic acid,0.1528,Rheumatoid Arthritis,Pending,—
+6,Neopterin,0.1491,Rheumatoid Arthritis,Pending,—
+7,24-Hydroxycholesterol,0.1335,Rheumatoid Arthritis,Pending,—
+8,Cholesterol,0.1314,Rheumatoid Arthritis,Pending,—
+9,L-Cysteine,0.0319,Rheumatoid Arthritis,Pending,—
+10,Ubiquinone-1,0.0312,Rheumatoid Arthritis,Pending,—
+11,Angiotensin II,0.0296,Rheumatoid Arthritis,Pending,—
+12,Oxidized glutathione,0.0291,Rheumatoid Arthritis,Pending,—
+13,Cyclohexane,0.0286,Rheumatoid Arthritis,Pending,—
+14,27-Hydroxycholesterol,0.0283,Rheumatoid Arthritis,Pending,—
+15,Biotin,0.0283,Rheumatoid Arthritis,Pending,—
+16,Thallium,0.0281,Rheumatoid Arthritis,Pending,—
+17,Adenine,0.028,Rheumatoid Arthritis,Pending,—
+18,7-Ketocholesterol,0.0275,Rheumatoid Arthritis,Pending,—
+19,Mercury,0.0273,Rheumatoid Arthritis,Pending,—
+20,Peroxynitrite,0.0273,Rheumatoid Arthritis,Pending,—

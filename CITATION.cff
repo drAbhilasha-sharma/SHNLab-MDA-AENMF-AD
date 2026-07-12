@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "MDA-AENMF-AD: Predicting Metabolite-Disease Associations in Autoimmune Disorders"
+authors:
+  - family-names: Sharma
+    given-names: Abhilasha
+    orcid: "https://orcid.org/0000-0002-2438-6556"
+  - family-names: Nile
+    given-names: Shivraj Hariram
+    orcid: "https://orcid.org/0000-0003-3141-5754"
+repository-code: "https://github.com/drAbhilasha-sharma/SHNLab-MDA-AENMF-AD"
+license: MIT
+version: "1.0.0"
+date-released: "2026-01-01"

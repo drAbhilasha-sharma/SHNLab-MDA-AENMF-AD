@@ -1,0 +1,84 @@
+# Ablation study configurations
+# Each entry defines a named ablation condition
+# Run: python evaluate.py --mode ablation --ablation_config configs/ablation.yaml
+
+base_config: configs/default.yaml
+
+ablation_conditions:
+
+  full_model:
+    description: "Full model — all modules active (reference)"
+    remove_dae:  false
+    remove_gae:  false
+    remove_nmf:  false
+    remove_ips:  false
+    remove_aps:  false
+    remove_dgip: false
+    remove_dss:  false
+    remove_dsie: false
+    snf_mode:    snf     # 'snf' or 'mean'
+
+  remove_dae:
+    description: "Remove DAE — use raw SNF matrix as disease features"
+    remove_dae:  true
+    snf_mode:    snf
+
+  remove_gae:
+    description: "Remove GAE — use raw ECFP4 fingerprints as metabolite features"
+    remove_gae:  true
+    snf_mode:    snf
+
+  remove_nmf:
+    description: "Remove NMF — directly concatenate DAE and GAE outputs (128-d input to MLP)"
+    remove_nmf:  true
+    snf_mode:    snf
+
+  remove_ips:
+    description: "Remove IPS from SNF input (4 remaining networks)"
+    remove_ips:  true
+    snf_mode:    snf
+
+  remove_aps:
+    description: "Remove APS from SNF input (4 remaining networks)"
+    remove_aps:  true
+    snf_mode:    snf
+
+  remove_dgip:
+    description: "Remove DGIP from SNF input (4 remaining networks)"
+    remove_dgip: true
+    snf_mode:    snf
+
+  remove_dss:
+    description: "Remove DSS from SNF input (4 remaining networks)"
+    remove_dss:  true
+    snf_mode:    snf
+
+  remove_dsie:
+    description: "Remove DSIE from SNF input (4 remaining networks)"
+    remove_dsie: true
+    snf_mode:    snf
+
+  snf_arithmetic_mean:
+    description: "Replace SNF with arithmetic mean of all 5 similarity matrices"
+    snf_mode:    mean
+
+  ips_only:
+    description: "IPS-only disease similarity (all other SNF networks removed)"
+    remove_aps:  true
+    remove_dgip: true
+    remove_dss:  true
+    remove_dsie: true
+    snf_mode:    snf
+
+  aps_only:
+    description: "APS-only disease similarity (all other SNF networks removed)"
+    remove_ips:  true
+    remove_dgip: true
+    remove_dss:  true
+    remove_dsie: true
+    snf_mode:    snf
+
+evaluation:
+  report_ms_lodo: true
+  report_cv: true
+  metrics: [auc, aupr, f1, precision_at_10, precision_at_20]
