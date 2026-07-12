@@ -25,7 +25,6 @@ These networks are fused with three established similarity measures (MeSH Semant
 | AUC | 0.9996 | 0.0006 |
 | AUPR | 0.9996 | 0.0006 |
 
-> **Note on comparison method curves:** ROC and PR curves for comparison methods in Figure 1 are synthetic curves generated from parametric models calibrated to each method's published mean AUC/AUPR value. They are **not** computed from the original methods' raw prediction scores. The AUC point estimates from the original publications are the appropriate basis for performance comparison.
 
 ---
 
